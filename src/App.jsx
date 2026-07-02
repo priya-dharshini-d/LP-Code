@@ -205,7 +205,7 @@ function Hero() {
       <div className="absolute inset-0 opacity-[0.05] z-0 pointer-events-none" style={{ backgroundImage: "linear-gradient(to right, #000 1px, transparent 1px), linear-gradient(to bottom, #000 1px, transparent 1px)", backgroundSize: "60px 60px" }}></div>
 
       {/* Decorative Math Elements (Left) */}
-      <svg viewBox="0 0 100 100" className="hidden sm:absolute top-[18%] left-[4%] w-16 md:w-32 h-auto animate-float drop-shadow-xl opacity-35" style={{ '--rotation': '140deg' }}>
+      <svg viewBox="0 0 100 100" className="hidden lg:block absolute top-[15%] left-[8%] w-32 h-auto animate-float drop-shadow-xl opacity-40" style={{ '--rotation': '140deg' }}>
         <path d="M10,90 L90,90 L10,10 Z M25,75 L25,35 L65,75 Z" fill="#3b82f6" fillRule="evenodd" />
         <line x1="20" y1="90" x2="20" y2="84" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" />
         <line x1="30" y1="90" x2="30" y2="84" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" />
@@ -220,7 +220,7 @@ function Hero() {
         <line x1="10" y1="40" x2="16" y2="40" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" />
         <line x1="10" y1="30" x2="16" y2="30" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" />
       </svg>
-      <svg viewBox="0 0 100 100" className="hidden sm:absolute top-[28%] left-[8%] w-14 md:w-28 h-auto animate-float-slow drop-shadow-xl opacity-35" style={{ '--rotation': '-10deg' }}>
+      <svg viewBox="0 0 100 100" className="hidden lg:block absolute top-[30%] left-[12%] w-28 h-auto animate-float-slow drop-shadow-xl opacity-40" style={{ '--rotation': '-10deg' }}>
         {/* Frame */}
         <rect x="10" y="10" width="80" height="80" rx="6" fill="none" stroke="#8b5cf6" strokeWidth="8" />
 
@@ -268,7 +268,7 @@ function Hero() {
       </svg>
 
       {/* Decorative Math Elements (Right) */}
-      <svg viewBox="0 0 100 100" className="hidden sm:absolute top-[18%] right-[4%] w-18 md:w-36 h-auto animate-float-delayed drop-shadow-xl opacity-35" style={{ '--rotation': '-10deg' }}>
+      <svg viewBox="0 0 100 100" className="hidden lg:block absolute top-[15%] right-[10%] w-36 h-auto animate-float-delayed drop-shadow-xl opacity-40" style={{ '--rotation': '-10deg' }}>
         <path d="M10 70 A 40 40 0 0 1 90 70 Z" fill="#10b981" opacity="0.9" />
         <path d="M30 70 A 20 20 0 0 1 70 70 Z" fill="none" stroke="#fff" strokeWidth="3" />
         <line x1="15" y1="70" x2="22" y2="70" stroke="#fff" strokeWidth="2" />
@@ -277,7 +277,7 @@ function Hero() {
         <line x1="25.2" y1="45.2" x2="30.2" y2="50.2" stroke="#fff" strokeWidth="2" />
         <line x1="74.8" y1="45.2" x2="69.8" y2="50.2" stroke="#fff" strokeWidth="2" />
       </svg>
-      <svg viewBox="0 0 100 100" className="hidden sm:absolute top-[28%] right-[8%] w-16 md:w-32 h-auto animate-float drop-shadow-xl opacity-35" style={{ '--rotation': '25deg' }}>
+      <svg viewBox="0 0 100 100" className="hidden lg:block absolute top-[30%] right-[15%] w-32 h-auto animate-float drop-shadow-xl opacity-40" style={{ '--rotation': '25deg' }}>
         <rect x="10" y="35" width="80" height="18" rx="2" fill="#f59e0b" transform="rotate(-15 50 50)" />
         <line x1="15" y1="35" x2="15" y2="42" stroke="#b45309" strokeWidth="2" transform="rotate(-15 50 50)" />
         <line x1="30" y1="35" x2="30" y2="42" stroke="#b45309" strokeWidth="2" transform="rotate(-15 50 50)" />
