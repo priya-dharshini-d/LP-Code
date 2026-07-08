@@ -477,31 +477,30 @@ function Testimonials() {
   return (
     <section id="testimonials" className="py-24 bg-white border-t border-zinc-200">
       <div className="max-w-[1280px] mx-auto px-8 md:px-16">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-16 items-start">
-          <div className="md:col-span-4">
-            <p className="text-[10px] uppercase tracking-[0.15em] font-medium text-zinc-400 mb-4">Voices of Distinction</p>
-            <h2 className="font-serif font-black text-zinc-900 mb-4" style={{ fontSize: "clamp(28px, 4vw, 48px)" }}>
-              What Students<br /><em>Say</em>
-            </h2>
-            <p className="text-sm text-zinc-500 leading-relaxed">Real transformations from students who chose to invest in their future.</p>
-          </div>
-          <div className="md:col-span-8">
-            {list.map(({ quote, name, role, initials, img }, i) => (
-              <div key={name} className={`py-8 flex gap-6 items-start ${i > 0 ? "border-t border-zinc-200" : ""}`}>
-                <div className="flex-shrink-0">
-                  {img
-                    ? <img src={img} alt={name} className="w-12 h-12 rounded-full object-cover grayscale" />
-                    : <div className="w-12 h-12 rounded-full bg-zinc-900 flex items-center justify-center text-white font-bold text-sm">{initials}</div>
-                  }
-                </div>
-                <div>
-                  <p className="text-base text-zinc-900 font-serif italic leading-relaxed mb-3">"{quote}"</p>
-                  <div className="font-semibold text-sm text-zinc-900">{name}</div>
-                  <div className="text-[10px] uppercase tracking-widest text-zinc-400 mt-0.5">{role}</div>
-                </div>
+        <div className="mb-16 text-center">
+          <p className="text-[10px] uppercase tracking-[0.15em] font-medium text-zinc-400 mb-4">Voices of Distinction</p>
+          <h2 className="font-serif font-black text-zinc-900 mb-4" style={{ fontSize: "clamp(28px, 4vw, 48px)" }}>
+            What Students <em>Say</em>
+          </h2>
+          <p className="text-sm text-zinc-500 leading-relaxed max-w-xl mx-auto">Real transformations from students who chose to invest in their future.</p>
+        </div>
+
+        <div className="max-w-4xl mx-auto">
+          {list.map(({ quote, name, role, initials, img }, i) => (
+            <div key={name} className={`py-8 flex gap-6 items-start ${i > 0 ? "border-t border-zinc-200" : ""}`}>
+              <div className="flex-shrink-0">
+                {img
+                  ? <img src={img} alt={name} className="w-12 h-12 rounded-full object-cover grayscale" />
+                  : <div className="w-12 h-12 rounded-full bg-zinc-900 flex items-center justify-center text-white font-bold text-sm">{initials}</div>
+                }
               </div>
-            ))}
-          </div>
+              <div>
+                <p className="text-base text-zinc-900 font-serif italic leading-relaxed mb-3">"{quote}"</p>
+                <div className="font-semibold text-sm text-zinc-900">{name}</div>
+                <div className="text-[10px] uppercase tracking-widest text-zinc-400 mt-0.5">{role}</div>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </section>
