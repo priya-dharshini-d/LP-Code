@@ -112,8 +112,7 @@ function Hero() {
         
         .hero-title {
           font-family: 'Anton', 'Impact', 'Arial Black', sans-serif;
-          transform: scaleY(1.25);
-          letter-spacing: 0.03em;
+          letter-spacing: 0.04em;
         }
       `}</style>
 
@@ -124,7 +123,7 @@ function Hero() {
           MASTER ENGINEERING
         </h1>
         <p className="mt-6 text-zinc-700 text-sm md:text-base max-w-4xl text-center font-medium">
-          Expert online engineering tutoring tailored to simplify concepts, build confidence, and boost your scores.
+          Expert engineering coaching tailored to simplify complex concepts, build job-ready skills, and secure top-tier placements.
         </p>
 
         {/* Buttons */}
