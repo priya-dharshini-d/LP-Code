@@ -1,7 +1,6 @@
 {
-  "name": "lp-code",
+  "name": "priya-academy",
   "version": "0.0.0",
-  "description": "Personal website for my YouTube channel and courses.",
   "type": "module",
   "scripts": {
     "dev": "vite",
