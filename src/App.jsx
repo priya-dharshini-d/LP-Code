@@ -121,10 +121,10 @@ function Hero() {
 
         {/* Text Content */}
         <h1 className="hero-title text-[#111] text-center uppercase mt-6 mb-4" style={{ fontSize: "clamp(36px, 5vw, 72px)", lineHeight: "1" }}>
-          MASTER MATHEMATICS
+          MASTER ENGINEERING
         </h1>
         <p className="mt-6 text-zinc-700 text-sm md:text-base max-w-4xl text-center font-medium">
-          Expert online math tutoring tailored to simplify concepts, build confidence, and boost your scores.
+          Expert online engineering tutoring tailored to simplify concepts, build confidence, and boost your scores.
         </p>
 
         {/* Buttons */}
