@@ -29,7 +29,7 @@ function Nav({ setView }) {
 
           {/* Logo Section */}
           <div className="flex flex-col justify-center cursor-pointer" onClick={() => { setView && setView('home'); setMobileOpen(false); }}>
-            <span className="font-serif text-lg sm:text-xl leading-none text-zinc-900 tracking-tight">Priya's Academy</span>
+            <span className="font-serif text-lg sm:text-xl leading-none text-zinc-900 tracking-tight">Lucky and Promise</span>
           </div>
 
           {/* Desktop Nav */}
@@ -614,7 +614,7 @@ function Footer() {
       <div className="max-w-[1280px] mx-auto px-8 md:px-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           <div className="md:col-span-2">
-            <div className="font-sans font-black text-white text-xl mb-4">Priya's Academy</div>
+            <div className="font-sans font-black text-white text-xl mb-4">Lucky and Promise</div>
             <p className="text-sm text-zinc-400 leading-relaxed max-w-xs">Empowering the next generation of engineers and scientists through mathematical excellence.</p>
             <div className="flex gap-3 mt-6">
               {["public", "person", "forum"].map((icon) => (
@@ -644,7 +644,7 @@ function Footer() {
           </div>
         </div>
         <div className="border-t border-zinc-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-xs text-zinc-500">© 2024 Priya's Academy. All rights reserved.</p>
+          <p className="text-xs text-zinc-500">© 2024 Lucky and Promise. All rights reserved.</p>
           <p className="text-xs text-zinc-600">CBSE Class 10 &amp; 12 · Mathematics Excellence</p>
         </div>
       </div>
