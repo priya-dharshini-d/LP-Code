@@ -28,8 +28,7 @@ function Nav({ setView }) {
         <div className="max-w-[1440px] mx-auto px-4 sm:px-8 md:px-12 flex items-center justify-between h-16">
 
           {/* Logo Section */}
-          <div className="flex items-center gap-3 cursor-pointer" onClick={() => { setView && setView('home'); setMobileOpen(false); }}>
-            <img src="/logo.png" alt="Lucky and Promise Logo" className="h-10 w-10 object-contain rounded-full" />
+          <div className="flex flex-col justify-center cursor-pointer" onClick={() => { setView && setView('home'); setMobileOpen(false); }}>
             <span className="font-serif text-lg sm:text-xl leading-none text-zinc-900 tracking-tight">Lucky and Promise</span>
           </div>
 
