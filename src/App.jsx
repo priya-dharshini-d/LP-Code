@@ -28,7 +28,8 @@ function Nav({ setView }) {
         <div className="max-w-[1440px] mx-auto px-4 sm:px-8 md:px-12 flex items-center justify-between h-16">
 
           {/* Logo Section */}
-          <div className="flex flex-col justify-center cursor-pointer" onClick={() => { setView && setView('home'); setMobileOpen(false); }}>
+          <div className="flex items-center gap-3 cursor-pointer" onClick={() => { setView && setView('home'); setMobileOpen(false); }}>
+            <img src="/logo.png" alt="Lucky and Promise Logo" className="h-10 w-10 object-contain rounded-full" />
             <span className="font-serif text-lg sm:text-xl leading-none text-zinc-900 tracking-tight">Lucky and Promise</span>
           </div>
 
@@ -614,7 +615,10 @@ function Footer() {
       <div className="max-w-[1280px] mx-auto px-8 md:px-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           <div className="md:col-span-2">
-            <div className="font-sans font-black text-white text-xl mb-4">Lucky and Promise</div>
+            <div className="flex items-center gap-3 mb-4">
+              <img src="/logo.png" alt="Lucky and Promise Logo" className="h-10 w-10 object-contain rounded-full bg-white p-0.5" />
+              <div className="font-sans font-black text-white text-xl">Lucky and Promise</div>
+            </div>
             <p className="text-sm text-zinc-400 leading-relaxed max-w-xs">Empowering the next generation of engineers and scientists through mathematical excellence.</p>
             <div className="flex gap-3 mt-6">
               {["public", "person", "forum"].map((icon) => (
